@@ -91,3 +91,8 @@ footer input[type='button']{
     background-color: #009Ad8;
     color: #fff;
 }
+@media screen and (max-width: 768px) {
+    footer .search, footer .CR {
+        margin-left: 0 !important;
+    }
+}
